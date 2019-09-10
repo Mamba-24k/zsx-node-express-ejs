@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>易建采</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <form name="punchout_form" method="post"
+      action="https://openapi.alipay.com/gateway.do?charset=UTF-8&method=alipay.trade.page.pay&sign=mcJp5K6PkBWO%2F%2F2tDU3il4WL6i05ctKIcX5ffNNF4Nh2q4XYGKKRTdDF3W%2F8UDh7XnVjWhg2i%2B%2BC600pAeSnHiIJxM0lmCuj3KkBOFmJGTbMockoUxAeHnzjz4iz9wLa32cFm94v%2Bg0Q4A8fdO8MXDT8%2BgnABeUIQYUHZDF%2B%2BUGgIhoNfTN5Kfap1zC9rvPWrbnvDN2EdwG3QGEvr6DfP2E42TbihHX2vKJZ9D7O9us5e6bt7aD7x7RVxSdKCj%2FmhbaV6MXrzPEoZJetHLEZKqxxlTBs33bDOGTq6fpWG%2Bf8tIAAwKn80q3xJr9%2BilimQefGi1fv%2BovuUmhY7xQaIw%3D%3D&return_url=http%3A%2F%2Fq1406835988.xicp.net%3A59116%2Falipay%2FreturnUrl&notify_url=http%3A%2F%2Fq1406835988.xicp.net%3A38244%2Falipay%2FreceiveNotify&version=1.0&app_id=2019040963851159&sign_type=RSA2&timestamp=2019-06-28+15%3A43%3A27&alipay_sdk=alipay-sdk-java-3.7.4.ALL&format=json">
+      <input type="hidden" name="biz_content"
+        value="{&quot;out_trade_no&quot;:&quot;2019062811&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;,&quot;total_amount&quot;:0.01,&quot;subject&quot;:&quot;dh开发人员测试&quot;,&quot;body&quot;:&quot;阿里，你们的文档比微信很垃圾&quot;,&quot;qr_pay_mode&quot;:&quot;0&quot;,&quot;qrcode_width&quot;:null}">
+      <input type="submit" value="立即支付" style="display:none">
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>

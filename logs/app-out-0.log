@@ -1,0 +1,72 @@
+--------------------------node服务已开启----------------------------
+[0mGET /static/img/carousel1.png [36m304 [0m2.769 ms - -[0m
+[0mGET /static/img/company_01.png [36m304 [0m0.648 ms - -[0m
+[0mGET /static/img/company_05.png [36m304 [0m0.376 ms - -[0m
+[0mGET /static/img/company_09.png [36m304 [0m0.963 ms - -[0m
+[0mGET /static/img/company_08.png [36m304 [0m4.193 ms - -[0m
+[0mGET /static/img/company_12.png [36m304 [0m2.351 ms - -[0m
+[0mGET /static/img/company_13.png [36m304 [0m0.422 ms - -[0m
+[0mGET /js/home.js [36m304 [0m0.400 ms - -[0m
+[0mGET /static/img/company_15.png [36m304 [0m0.391 ms - -[0m
+[0mGET /static/img/down_app.png [36m304 [0m0.544 ms - -[0m
+[0mGET /static/img/u01.png [36m304 [0m0.630 ms - -[0m
+[0mGET /static/img/u04.png [36m304 [0m0.742 ms - -[0m
+[0mGET /static/img/pro_bg_2.png [36m304 [0m0.356 ms - -[0m
+[0mGET /fonts/fzktb/FZKTB.woff [36m304 [0m0.852 ms - -[0m
+[0mGET /static/faviconlogo.ico [32m200 [0m1.515 ms - 4286[0m
+[0mGET / [36m304 [0m0.630 ms - -[0m
+[0mGET /css/base.css [36m304 [0m0.611 ms - -[0m
+[0mGET /css/home.css [36m304 [0m0.601 ms - -[0m
+[0mGET /static/img/logo.png [36m304 [0m0.817 ms - -[0m
+[0mGET /static/img/carousel1.png [36m304 [0m0.993 ms - -[0m
+[0mGET /static/img/carousel2.jpg [36m304 [0m0.468 ms - -[0m
+[0mGET /static/img/carousel3.jpg [36m304 [0m0.465 ms - -[0m
+[0mGET /static/img/company_01.png [36m304 [0m1.438 ms - -[0m
+[0mGET /static/img/company_02.png [36m304 [0m1.535 ms - -[0m
+[0mGET /static/img/company_03.png [36m304 [0m0.488 ms - -[0m
+[0mGET /static/img/company_04.png [36m304 [0m0.869 ms - -[0m
+[0mGET /static/img/company_06.png [36m304 [0m0.510 ms - -[0m
+[0mGET /static/img/company_05.png [36m304 [0m0.523 ms - -[0m
+[0mGET /static/img/company_07.png [36m304 [0m1.287 ms - -[0m
+[0mGET /static/img/company_08.png [36m304 [0m1.392 ms - -[0m
+[0mGET /fonts/fzktb/FZKTB.woff [36m304 [0m0.553 ms - -[0m
+[0mGET /static/img/company_09.png [36m304 [0m0.701 ms - -[0m
+[0mGET /static/img/company_10.png [36m304 [0m0.724 ms - -[0m
+[0mGET /static/img/company_11.png [36m304 [0m0.538 ms - -[0m
+[0mGET /static/img/u01.png [36m304 [0m0.423 ms - -[0m
+[0mGET /static/img/u03.png [36m304 [0m0.440 ms - -[0m
+[0mGET /static/img/u02.png [36m304 [0m1.728 ms - -[0m
+[0mGET /static/img/u04.png [36m304 [0m2.326 ms - -[0m
+[0mGET /static/img/company_12.png [36m304 [0m0.712 ms - -[0m
+[0mGET /static/img/company_13.png [36m304 [0m0.794 ms - -[0m
+[0mGET /static/img/company_14.png [36m304 [0m1.494 ms - -[0m
+[0mGET /js/home.js [36m304 [0m1.105 ms - -[0m
+[0mGET /static/img/company_15.png [36m304 [0m1.191 ms - -[0m
+[0mGET /static/img/company_17.png [36m304 [0m1.250 ms - -[0m
+[0mGET /static/img/wx_code.jpg [36m304 [0m0.358 ms - -[0m
+[0mGET /static/img/down_app.png [36m304 [0m0.394 ms - -[0m
+[0mGET /static/img/pro_bg_1.png [36m304 [0m0.786 ms - -[0m
+[0mGET /static/img/pro_bg_2.png [36m304 [0m0.794 ms - -[0m
+[0mGET /static/img/num_bg.jpg [36m304 [0m0.785 ms - -[0m
+[0mGET /static/img/tel.png [36m304 [0m0.785 ms - -[0m
+[0mGET /static/faviconlogo.ico [32m200 [0m3.115 ms - 4286[0m
+--------------------------node服务已开启----------------------------
+--------------------------node服务已开启----------------------------
+出错了 请求超时,请重试!Read timed out
+出错了 请求超时,请重试!Read timed out
+出错了 { Error: connect EHOSTUNREACH 192.168.1.101:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+  errno: 'EHOSTUNREACH',
+  code: 'EHOSTUNREACH',
+  syscall: 'connect',
+  address: '192.168.1.101',
+  port: 443 }
+出错了 { Error: connect EHOSTUNREACH 192.168.1.101:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+  errno: 'EHOSTUNREACH',
+  code: 'EHOSTUNREACH',
+  syscall: 'connect',
+  address: '192.168.1.101',
+  port: 443 }
+--------------------------node服务已开启----------------------------
+--------------------------node服务已开启----------------------------

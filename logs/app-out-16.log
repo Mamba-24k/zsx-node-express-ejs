@@ -1,0 +1,106 @@
+--------------------------node服务已开启----------------------------
+--------------------------node服务已开启----------------------------
+出错了 请求超时,请重试!Read timed out
+[0mGET / [33m404 [0m27.477 ms - 44[0m
+[0mGET /favicon.ico [33m404 [0m2.528 ms - 44[0m
+[0mGET / [33m404 [0m1.205 ms - 44[0m
+[0mGET /home.html [32m200 [0m21.871 ms - 265776[0m
+[0mGET /css/base.css [36m304 [0m39.758 ms - -[0m
+[0mGET /static/img/carousel2.jpg [36m304 [0m37.742 ms - -[0m
+[0mGET /static/img/carousel3.jpg [36m304 [0m36.953 ms - -[0m
+[0mGET /css/home.css [36m304 [0m0.520 ms - -[0m
+[0mGET /static/img/carousel1.png [36m304 [0m4.409 ms - -[0m
+[0mGET /static/img/logo.png [36m304 [0m4.954 ms - -[0m
+[0mGET /js/home.js [36m304 [0m0.425 ms - -[0m
+[0mGET /static/img/company_01.png [36m304 [0m0.420 ms - -[0m
+[0mGET /static/img/company_02.png [36m304 [0m0.916 ms - -[0m
+[0mGET /static/img/company_03.png [36m304 [0m0.407 ms - -[0m
+[0mGET /static/img/company_04.png [36m304 [0m0.490 ms - -[0m
+[0mGET /static/img/company_05.png [36m304 [0m0.533 ms - -[0m
+[0mGET /static/img/company_06.png [36m304 [0m0.385 ms - -[0m
+[0mGET /static/img/company_07.png [36m304 [0m0.433 ms - -[0m
+[0mGET /static/img/company_08.png [36m304 [0m0.664 ms - -[0m
+[0mGET /static/img/company_09.png [36m304 [0m0.418 ms - -[0m
+[0mGET /static/img/company_10.png [36m304 [0m0.349 ms - -[0m
+[0mGET /static/img/company_11.png [36m304 [0m0.365 ms - -[0m
+[0mGET /static/img/company_12.png [36m304 [0m0.616 ms - -[0m
+[0mGET /static/img/company_13.png [36m304 [0m0.582 ms - -[0m
+[0mGET /static/img/company_14.png [36m304 [0m0.978 ms - -[0m
+[0mGET /static/img/company_15.png [36m304 [0m0.986 ms - -[0m
+[0mGET /static/img/company_17.png [36m304 [0m0.933 ms - -[0m
+[0mGET /static/img/wx_code.jpg [36m304 [0m0.874 ms - -[0m
+[0mGET /static/img/down_app.png [36m304 [0m0.877 ms - -[0m
+[0mGET /fonts/fzktb/FZKTB.woff [36m304 [0m0.557 ms - -[0m
+[0mGET /static/img/u02.png [36m304 [0m0.404 ms - -[0m
+[0mGET /static/img/u04.png [36m304 [0m0.378 ms - -[0m
+[0mGET /static/img/tel.png [36m304 [0m0.546 ms - -[0m
+出错了 请求超时,请重试!Read timed out
+出错了 { Error: connect EHOSTUNREACH 192.168.1.101:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+  errno: 'EHOSTUNREACH',
+  code: 'EHOSTUNREACH',
+  syscall: 'connect',
+  address: '192.168.1.101',
+  port: 443 }
+出错了 { Error: connect EHOSTUNREACH 192.168.1.101:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+  errno: 'EHOSTUNREACH',
+  code: 'EHOSTUNREACH',
+  syscall: 'connect',
+  address: '192.168.1.101',
+  port: 443 }
+--------------------------node服务已开启----------------------------
+[0mGET /static2/img/carousel1.png [32m200 [0m3.548 ms - 749736[0m
+[0mGET /js/home.js [36m304 [0m1.311 ms - -[0m
+[0mGET /static2/img/company_10.png [32m200 [0m1.328 ms - 59608[0m
+[0mGET /static2/img/company_14.png [32m200 [0m0.791 ms - 87536[0m
+[0mGET /fonts/fzktb/FZKTB.woff [36m304 [0m19.020 ms - -[0m
+[0mGET /static2/faviconlogo.ico [32m200 [0m4.880 ms - 4286[0m
+[0mGET /css/home.css [36m304 [0m0.752 ms - -[0m
+[0mGET /static2/img/logo.png [36m304 [0m0.652 ms - -[0m
+[0mGET /static2/img/carousel1.png [36m304 [0m0.639 ms - -[0m
+[0mGET /static2/img/carousel2.jpg [36m304 [0m0.430 ms - -[0m
+[0mGET /static2/img/carousel3.jpg [36m304 [0m0.476 ms - -[0m
+[0mGET /static2/img/company_01.png [36m304 [0m0.502 ms - -[0m
+[0mGET /static2/img/company_02.png [36m304 [0m0.516 ms - -[0m
+[0mGET /static2/img/company_03.png [36m304 [0m0.533 ms - -[0m
+[0mGET /static2/img/company_04.png [36m304 [0m0.646 ms - -[0m
+[0mGET /static2/img/company_05.png [36m304 [0m0.766 ms - -[0m
+[0mGET /static2/img/company_06.png [36m304 [0m0.836 ms - -[0m
+[0mGET /static2/img/company_08.png [36m304 [0m0.480 ms - -[0m
+[0mGET /static2/img/company_09.png [36m304 [0m1.044 ms - -[0m
+[0mGET /static2/img/company_10.png [36m304 [0m0.358 ms - -[0m
+[0mGET /static2/img/company_11.png [36m304 [0m0.479 ms - -[0m
+[0mGET /static2/img/company_12.png [36m304 [0m0.512 ms - -[0m
+[0mGET /js/home.js [36m304 [0m0.528 ms - -[0m
+[0mGET /static2/img/company_14.png [36m304 [0m0.315 ms - -[0m
+[0mGET /static2/img/company_15.png [36m304 [0m1.342 ms - -[0m
+[0mGET /static2/img/company_17.png [36m304 [0m0.931 ms - -[0m
+[0mGET /static2/img/wx_code.jpg [36m304 [0m0.953 ms - -[0m
+[0mGET /static2/img/down_app.png [36m304 [0m0.910 ms - -[0m
+[0mGET /static/img/u01.png [33m404 [0m7.259 ms - 44[0m
+[0mGET /static/img/u02.png [33m404 [0m7.670 ms - 44[0m
+[0mGET /static/img/u03.png [33m404 [0m7.782 ms - 44[0m
+[0mGET /static/img/u04.png [33m404 [0m7.916 ms - 44[0m
+[0mGET /static/img/pro_bg_2.png [33m404 [0m0.546 ms - 44[0m
+[0mGET /static2/faviconlogo.ico [32m200 [0m0.768 ms - 4286[0m
+[0mGET /home.html [36m304 [0m0.591 ms - -[0m
+[0mGET /css/base.css [36m304 [0m0.499 ms - -[0m
+[0mGET /css/home.css [36m304 [0m0.729 ms - -[0m
+[0mGET /static2/img/logo.png [36m304 [0m0.734 ms - -[0m
+[0mGET /static2/img/carousel2.jpg [36m304 [0m0.554 ms - -[0m
+[0mGET /static2/img/company_02.png [36m304 [0m1.530 ms - -[0m
+[0mGET /static2/img/company_03.png [36m304 [0m0.314 ms - -[0m
+[0mGET /static2/img/company_06.png [36m304 [0m0.446 ms - -[0m
+[0mGET /static2/img/company_04.png [36m304 [0m0.991 ms - -[0m
+[0mGET /static2/img/company_07.png [36m304 [0m0.511 ms - -[0m
+[0mGET /static2/img/company_10.png [36m304 [0m0.360 ms - -[0m
+[0mGET /static2/img/company_08.png [36m304 [0m0.691 ms - -[0m
+[0mGET /static2/img/company_14.png [36m304 [0m0.871 ms - -[0m
+[0mGET /static2/img/company_15.png [36m304 [0m0.871 ms - -[0m
+[0mGET /static2/img/company_17.png [36m304 [0m0.876 ms - -[0m
+[0mGET /js/home.js [36m304 [0m0.532 ms - -[0m
+[0mGET /static/img/u01.png [33m404 [0m0.506 ms - 44[0m
+[0mGET /static/img/u03.png [33m404 [0m0.870 ms - 44[0m
+[0mGET /static/img/u04.png [33m404 [0m0.574 ms - 44[0m
+[0mGET /static/img/num_bg.jpg [33m404 [0m0.470 ms - 44[0m

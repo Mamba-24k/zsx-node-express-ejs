@@ -1,0 +1,167 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'FZKTB';
+  src: url('../fonts/fzktb/FZKTB.eot');
+  src: url('../fonts/fzktb/FZKTB.eot?#font-spider') format('embedded-opentype'), url('../fonts/fzktb/FZKTB.woff') format('woff'), url('../fonts/fzktb/FZKTB.ttf') format('truetype'), url('../fonts/fzktb/FZKTB.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Microsoft YaHei', 'PingFang SC', '黑体';
+}
+body,
+dd,
+dl,
+form,
+h1,
+h2,
+h3,
+h4,
+input,
+ol,
+p,
+select,
+td,
+textarea,
+th,
+ul,
+li,
+div,
+section {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+body {
+  color: #333333;
+}
+em {
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+img {
+  vertical-align: top;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+button,
+input[type=button],
+input[type=submit],
+input[type=reset],
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+}
+fieldset,
+img {
+  border: 0;
+}
+-webkit-input-placeholder {
+  color: #999;
+}
+-moz-placeholder {
+  color: #999;
+}
+-moz-placeholder {
+  color: #999;
+}
+-ms-input-placeholder {
+  color: #999;
+}
+/*水平滚动条的样式*/
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #dbdbdb;
+}
+/* 滚动条部分 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+  background-color: #555;
+}
+.over-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.clearfix:after {
+  display: block;
+  content: '';
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.pointer {
+  cursor: pointer;
+}
+.content-box {
+  width: 1190px;
+  margin: 0 auto;
+}
+.top-60 {
+  margin-top: 60px;
+}
+.overflow:before {
+  content: "";
+  display: table;
+}
+/*弹出框*/
+.dialog-shadow {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  overflow: auto;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.dialog-shadow .dialog {
+  position: relative;
+  margin: 0 auto 50px;
+  margin-top: 15vh;
+  background: #ffffff;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  padding-top: 20px;
+}
+.dialog-shadow .dialog .dialog-close {
+  color: #909399;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.dialog-shadow .dialog .el-dialog-body {
+  padding: 30px 20px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=base.css.map */

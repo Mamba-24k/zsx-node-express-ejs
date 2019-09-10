@@ -1,0 +1,41 @@
+--------------------------node服务已开启----------------------------
+[0mGET / [32m200 [0m4.250 ms - 283313[0m
+[0mGET /css/base.css [36m304 [0m1.244 ms - -[0m
+[0mGET /css/home.css [36m304 [0m1.110 ms - -[0m
+[0mGET /static/img/logo.png [36m304 [0m1.133 ms - -[0m
+[0mGET /static/img/carousel2.jpg [36m304 [0m0.366 ms - -[0m
+[0mGET /static/img/carousel3.jpg [36m304 [0m0.387 ms - -[0m
+[0mGET /static/img/company_02.png [36m304 [0m0.541 ms - -[0m
+[0mGET /static/img/company_03.png [36m304 [0m0.795 ms - -[0m
+[0mGET /static/img/company_04.png [36m304 [0m0.644 ms - -[0m
+[0mGET /static/img/company_06.png [36m304 [0m0.436 ms - -[0m
+[0mGET /static/img/company_07.png [36m304 [0m4.759 ms - -[0m
+[0mGET /static/img/company_11.png [36m304 [0m2.734 ms - -[0m
+[0mGET /static/img/company_10.png [36m304 [0m3.576 ms - -[0m
+[0mGET /static/img/company_14.png [36m304 [0m0.490 ms - -[0m
+[0mGET /static/img/company_17.png [36m304 [0m0.500 ms - -[0m
+[0mGET /static/img/wx_code.jpg [36m304 [0m0.574 ms - -[0m
+[0mGET /static/img/u02.png [36m304 [0m1.165 ms - -[0m
+[0mGET /static/img/u03.png [36m304 [0m1.133 ms - -[0m
+[0mGET /static/img/pro_bg_1.png [36m304 [0m1.033 ms - -[0m
+[0mGET /static/img/num_bg.jpg [36m304 [0m0.418 ms - -[0m
+[0mGET /static/img/tel.png [36m304 [0m0.425 ms - -[0m
+--------------------------node服务已开启----------------------------
+--------------------------node服务已开启----------------------------
+出错了 请求超时,请重试!Read timed out
+出错了 请求超时,请重试!Read timed out
+出错了 { Error: connect EHOSTUNREACH 192.168.1.101:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+  errno: 'EHOSTUNREACH',
+  code: 'EHOSTUNREACH',
+  syscall: 'connect',
+  address: '192.168.1.101',
+  port: 443 }
+出错了 { Error: connect EHOSTUNREACH 192.168.1.101:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+  errno: 'EHOSTUNREACH',
+  code: 'EHOSTUNREACH',
+  syscall: 'connect',
+  address: '192.168.1.101',
+  port: 443 }
+--------------------------node服务已开启----------------------------
