@@ -1,6 +1,5 @@
 let express = require('express');
 let router = express.Router();
-var app = express();
 const $request = require("../utils/request");
 const {baseApi, address} = require("../config/index");
 
@@ -8,12 +7,8 @@ const fs = require("fs")
 const path = require('path');
 const ejs = require("ejs");
 
-// ---------------梅立基础上所加
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
-// ---------------梅立基础上所加
 
-let template = fs.readFileSync(path.join(__dirname, "../", "views/index.ejs"), 'utf8')
+// let template = fs.readFileSync(path.join(__dirname, "../", "views/index.ejs"), 'utf8')
 
 function createStaticHtml() {
   console.log("执行了")
@@ -55,18 +50,19 @@ function createStaticHtml() {
     }
     let accumulatedData = resArray[0].data;
     // let str = ejs.render(template, {
+    //   title: "易建采home-html",
     //   accumulatedData,
     //   treeArray,
     //   privateList,
     //   publicList,
     //   address
     // })
-    // fs.writeFileSync('../public/home.html', str, 'utf-8')
+    // fs.writeFileSync(path.join(__dirname, "../", "public/home.html"), str, 'utf-8')
 
   // ---------------梅立基础上所加
     router.get('/', function(req, res, next) {
       res.render('index', {
-        title: "易建采node-ejs",   
+        title: "易建采index-ejs",   
         accumulatedData,
         treeArray,
         privateList,
@@ -84,10 +80,7 @@ createStaticHtml();
 setInterval(() => {
   createStaticHtml();
 }, 1800000);
-/* GET home page. */
-// router.get('/demo', function(req, res, next) {
 
-// });
 
 module.exports = router;
 
